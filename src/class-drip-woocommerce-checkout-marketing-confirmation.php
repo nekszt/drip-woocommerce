@@ -58,7 +58,7 @@ class Drip_Woocommerce_Checkout_Marketing_Confirmation {
 			self::FIELD_NAME,
 			array(
 				'type'  => 'checkbox',
-				'label' => $label,
+				'label' => __($label),
 			),
 			$checked
 		);
